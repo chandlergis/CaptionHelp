@@ -1,0 +1,298 @@
+$ next dev --turbo
+  ▲ Next.js 14.2.4 (turbo)
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1987ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.1s
+ GET / 200 in 3308ms
+ ✓ Compiled /api/gpt-interrogate in 321ms
+(node:486583) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ POST /api/gpt-interrogate 200 in 13111ms
+ POST /api/gpt-interrogate 200 in 7995ms
+ POST /api/gpt-interrogate 200 in 88780ms
+ POST /api/gpt-interrogate 200 in 10115ms
+ POST /api/gpt-interrogate 200 in 11504ms
+ POST /api/gpt-interrogate 200 in 4522ms
+ POST /api/gpt-interrogate 200 in 7150ms
+ POST /api/gpt-interrogate 200 in 4483ms
+ POST /api/gpt-interrogate 200 in 6662ms
+ POST /api/gpt-interrogate 200 in 6414ms
+ POST /api/gpt-interrogate 200 in 5076ms
+ POST /api/gpt-interrogate 200 in 10566ms
+ POST /api/gpt-interrogate 200 in 5642ms
+ POST /api/gpt-interrogate 200 in 28779ms
+ POST /api/gpt-interrogate 200 in 5440ms
+ POST /api/gpt-interrogate 200 in 4144ms
+ POST /api/gpt-interrogate 200 in 4555ms
+ POST /api/gpt-interrogate 200 in 3744ms
+ POST /api/gpt-interrogate 200 in 5510ms
+ POST /api/gpt-interrogate 200 in 5404ms
+ POST /api/gpt-interrogate 200 in 5880ms
+ POST /api/gpt-interrogate 200 in 6457ms
+ POST /api/gpt-interrogate 200 in 4794ms
+ POST /api/gpt-interrogate 200 in 5535ms
+ POST /api/gpt-interrogate 200 in 6055ms
+ POST /api/gpt-interrogate 200 in 4371ms
+ POST /api/gpt-interrogate 200 in 4107ms
+ POST /api/gpt-interrogate 200 in 12326ms
+ GET / 200 in 90ms
+ POST /api/gpt-interrogate 200 in 18093ms
+ POST /api/gpt-interrogate 200 in 4363ms
+ POST /api/gpt-interrogate 200 in 4554ms
+ POST /api/gpt-interrogate 200 in 4680ms
+ POST /api/gpt-interrogate 200 in 4847ms
+ POST /api/gpt-interrogate 200 in 4664ms
+ POST /api/gpt-interrogate 200 in 4095ms
+ POST /api/gpt-interrogate 200 in 4866ms
+ POST /api/gpt-interrogate 200 in 6117ms
+ POST /api/gpt-interrogate 200 in 7746ms
+ POST /api/gpt-interrogate 200 in 4123ms
+ POST /api/gpt-interrogate 200 in 4859ms
+ POST /api/gpt-interrogate 200 in 4831ms
+ ✓ Compiled in 247ms
+ ✓ Compiled / in 46ms
+ GET / 200 in 218ms
+$ next dev --turbo
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.4 (turbo)
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12500:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getVersionInfo (/home/ubuntu/data/caption-helper/node_modules/next/dist/server/dev/hot-reloader-webpack.js:215:21)
+    at async createHotReloaderTurbopack (/home/ubuntu/data/caption-helper/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:395:25)
+    at async startWatcher (/home/ubuntu/data/caption-helper/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:145:38)
+    at async setupDevBundler (/home/ubuntu/data/caption-helper/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/home/ubuntu/data/caption-helper/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/home/ubuntu/data/caption-helper/node_modules/next/dist/server/lib/router-server.js:78:30)
+    at async Server.<anonymous> (/home/ubuntu/data/caption-helper/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  [cause]: AggregateError [ETIMEDOUT]: 
+      at internalConnectMultiple (node:net:1116:18)
+      at internalConnectMultiple (node:net:1184:5)
+      at Timeout.internalConnectMultipleTimeout (node:net:1710:5)
+      at listOnTimeout (node:internal/timers:575:11)
+      at process.processTimers (node:internal/timers:514:7) {
+    code: 'ETIMEDOUT',
+    [errors]: [
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error],
+      [Error], [Error], [Error]
+    ]
+  }
+}
+ ✓ Ready in 4.2s
+ GET / 200 in 81ms
+ POST /api/gpt-interrogate 200 in 5934ms
+ POST /api/gpt-interrogate 200 in 7304ms
+ POST /api/gpt-interrogate 200 in 6873ms
+ POST /api/gpt-interrogate 200 in 6767ms
+ POST /api/gpt-interrogate 200 in 21088ms
+ POST /api/gpt-interrogate 200 in 7839ms
+ POST /api/gpt-interrogate 200 in 6880ms
+ POST /api/gpt-interrogate 200 in 13285ms
+ POST /api/gpt-interrogate 200 in 19167ms
+ POST /api/gpt-interrogate 200 in 6114ms
+ POST /api/gpt-interrogate 200 in 6931ms
+ POST /api/gpt-interrogate 200 in 8145ms
+ POST /api/gpt-interrogate 200 in 5740ms
+ POST /api/gpt-interrogate 200 in 5561ms
+ POST /api/gpt-interrogate 200 in 6413ms
+ POST /api/gpt-interrogate 200 in 6555ms
+ POST /api/gpt-interrogate 200 in 6166ms
+ POST /api/gpt-interrogate 200 in 6095ms
+ POST /api/gpt-interrogate 200 in 220028ms
+ POST /api/gpt-interrogate 200 in 6302ms
+ POST /api/gpt-interrogate 200 in 8340ms
+ POST /api/gpt-interrogate 200 in 9599ms
+ POST /api/gpt-interrogate 200 in 8633ms
+ POST /api/gpt-interrogate 200 in 9653ms
+ POST /api/gpt-interrogate 200 in 9832ms
+error: script "dev" was terminated by signal SIGHUP (Terminal hung up)
+ POST /api/gpt-interrogate 200 in 85750ms
+ POST /api/gpt-interrogate 200 in 85003ms
+ POST /api/gpt-interrogate 200 in 83797ms
+ POST /api/gpt-interrogate 200 in 85230ms
+ POST /api/gpt-interrogate 200 in 84698ms
+ POST /api/gpt-interrogate 200 in 66752ms
+ POST /api/gpt-interrogate 200 in 5899ms
+ POST /api/gpt-interrogate 200 in 7101ms
+ POST /api/gpt-interrogate 200 in 19287ms
+ POST /api/gpt-interrogate 200 in 6569ms
+ POST /api/gpt-interrogate 200 in 5244ms
+ POST /api/gpt-interrogate 200 in 6587ms
+ POST /api/gpt-interrogate 200 in 5428ms
+ POST /api/gpt-interrogate 200 in 6979ms
+ POST /api/gpt-interrogate 200 in 4709ms
+ POST /api/gpt-interrogate 200 in 4624ms
+ POST /api/gpt-interrogate 200 in 5740ms
+ POST /api/gpt-interrogate 200 in 5444ms
+ POST /api/gpt-interrogate 200 in 4495ms
+ POST /api/gpt-interrogate 200 in 5464ms
+ POST /api/gpt-interrogate 200 in 4843ms
+ POST /api/gpt-interrogate 200 in 4610ms
+ POST /api/gpt-interrogate 200 in 4961ms
+ POST /api/gpt-interrogate 200 in 6097ms
+ POST /api/gpt-interrogate 200 in 13146ms
+ POST /api/gpt-interrogate 200 in 4468ms
+ POST /api/gpt-interrogate 200 in 13035ms
+ POST /api/gpt-interrogate 200 in 6279ms
+ POST /api/gpt-interrogate 200 in 15739ms
+ POST /api/gpt-interrogate 200 in 7179ms
+ POST /api/gpt-interrogate 200 in 6588ms
+ POST /api/gpt-interrogate 200 in 5435ms
+ POST /api/gpt-interrogate 200 in 4998ms
+ POST /api/gpt-interrogate 200 in 11591ms
+ POST /api/gpt-interrogate 200 in 5457ms
+ POST /api/gpt-interrogate 200 in 4652ms
+ POST /api/gpt-interrogate 200 in 5787ms
+ POST /api/gpt-interrogate 200 in 7306ms
+ ✓ Compiled in 149ms
+ GET / 200 in 206ms
+ POST /api/gpt-interrogate 200 in 10229ms
+ POST /api/gpt-interrogate 200 in 5222ms
+ POST /api/gpt-interrogate 200 in 4544ms
+ ✓ Compiled in 133ms
+ GET / 200 in 208ms
+ ✓ Compiled in 117ms
+ POST /api/gpt-interrogate 200 in 9019ms
+ POST /api/gpt-interrogate 200 in 9403ms
+ POST /api/gpt-interrogate 200 in 8326ms
+ ✓ Compiled in 133ms
+ GET / 200 in 207ms
+ ✓ Compiled in 216ms
+ ✓ Compiled / in 33ms
+ ⨯ components/navbar.tsx (82:14) @ Navbar
+ ⨯ ReferenceError: DiscordIcon is not defined
+    at Navbar (./components/navbar.tsx:82:14)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+digest: "1941253544"
+[0m [90m 80 |[39m         [33m<[39m[33mNavbarItem[39m className[33m=[39m[32m"hidden sm:flex gap-2"[39m[33m>[39m[0m
+[0m [90m 81 |[39m           [33m<[39m[33mLink[39m isExternal aria[33m-[39mlabel[33m=[39m[32m"Discord"[39m href[33m=[39m{siteConfig[33m.[39mlinks[33m.[39mdiscord}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 82 |[39m             [33m<[39m[33mDiscordIcon[39m className[33m=[39m[32m"text-default-500"[39m [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 83 |[39m           [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
+[0m [90m 84 |[39m           [33m<[39m[33mLink[39m isExternal aria[33m-[39mlabel[33m=[39m[32m"Github"[39m href[33m=[39m{siteConfig[33m.[39mlinks[33m.[39mgithub}[33m>[39m[0m
+[0m [90m 85 |[39m             [33m<[39m[33mGithubIcon[39m className[33m=[39m[32m"text-default-500"[39m [33m/[39m[33m>[39m[0m
+ ⨯ components/navbar.tsx (82:14) @ Navbar
+ ⨯ ReferenceError: DiscordIcon is not defined
+    at Navbar (./components/navbar.tsx:82:14)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1860083178"
+[0m [90m 80 |[39m         [33m<[39m[33mNavbarItem[39m className[33m=[39m[32m"hidden sm:flex gap-2"[39m[33m>[39m[0m
+[0m [90m 81 |[39m           [33m<[39m[33mLink[39m isExternal aria[33m-[39mlabel[33m=[39m[32m"Discord"[39m href[33m=[39m{siteConfig[33m.[39mlinks[33m.[39mdiscord}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 82 |[39m             [33m<[39m[33mDiscordIcon[39m className[33m=[39m[32m"text-default-500"[39m [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 83 |[39m           [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
+[0m [90m 84 |[39m           [33m<[39m[33mLink[39m isExternal aria[33m-[39mlabel[33m=[39m[32m"Github"[39m href[33m=[39m{siteConfig[33m.[39mlinks[33m.[39mgithub}[33m>[39m[0m
+[0m [90m 85 |[39m             [33m<[39m[33mGithubIcon[39m className[33m=[39m[32m"text-default-500"[39m [33m/[39m[33m>[39m[0m
+ ⨯ components/navbar.tsx (82:14) @ Navbar
+ ⨯ ReferenceError: DiscordIcon is not defined
+    at Navbar (./components/navbar.tsx:82:14)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1860083178"
+[0m [90m 80 |[39m         [33m<[39m[33mNavbarItem[39m className[33m=[39m[32m"hidden sm:flex gap-2"[39m[33m>[39m[0m
+[0m [90m 81 |[39m           [33m<[39m[33mLink[39m isExternal aria[33m-[39mlabel[33m=[39m[32m"Discord"[39m href[33m=[39m{siteConfig[33m.[39mlinks[33m.[39mdiscord}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 82 |[39m             [33m<[39m[33mDiscordIcon[39m className[33m=[39m[32m"text-default-500"[39m [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 83 |[39m           [33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
+[0m [90m 84 |[39m           [33m<[39m[33mLink[39m isExternal aria[33m-[39mlabel[33m=[39m[32m"Github"[39m href[33m=[39m{siteConfig[33m.[39mlinks[33m.[39mgithub}[33m>[39m[0m
+[0m [90m 85 |[39m             [33m<[39m[33mGithubIcon[39m className[33m=[39m[32m"text-default-500"[39m [33m/[39m[33m>[39m[0m
+ GET / 500 in 121ms
+ ✓ Compiled / in 11ms
+ GET / 200 in 172ms
+ ✓ Compiled in 123ms
+ ✓ Compiled / in 15ms
+ ✓ Compiled in 5ms
+ ✓ Compiled / in 21ms
+ ✓ Compiled in 5ms
+ ✓ Compiled / in 34ms
+ GET / 200 in 184ms
+ ✓ Compiled in 6ms
+ ✓ Compiled / in 18ms
+ GET / 200 in 169ms
+ ✓ Compiled in 139ms
+ ✓ Compiled / in 16ms
+ GET / 200 in 144ms
+ GET / 200 in 55ms
+ ✓ Compiled in 140ms
+ ✓ Compiled / in 20ms
+ GET / 200 in 162ms
+ POST /api/gpt-interrogate 200 in 10153ms
+ POST /api/gpt-interrogate 200 in 18131ms
+ POST /api/gpt-interrogate 200 in 9537ms
+ ✓ Compiled in 122ms
+ ✓ Compiled / in 24ms
+ ✓ Compiled / in 9ms
+ GET / 200 in 172ms
+ ✓ Compiled / in 7ms
+ GET / 200 in 160ms
+ ✓ Compiled / in 12ms
+ GET / 200 in 164ms
+ ✓ Compiled / in 8ms
+ ✓ Compiled / in 7ms
+ GET / 200 in 165ms
+ ✓ Compiled / in 15ms
+ GET / 200 in 171ms
+ ✓ Compiled / in 7ms
+ ✓ Compiled / in 13ms
+ GET / 200 in 172ms
+ ✓ Compiled in 125ms
+ ✓ Compiled / in 13ms
+ GET / 200 in 189ms
+ ✓ Compiled / in 12ms
+ ✓ Compiled / in 16ms
+ GET / 200 in 179ms
+ ✓ Compiled / in 9ms
+ ✓ Compiled / in 8ms
+ ✓ Compiled in 118ms
+ ✓ Compiled / in 18ms
+ ✓ Compiled / in 8ms
+ ✓ Compiled / in 16ms
+ GET / 200 in 170ms
+ ✓ Compiled / in 12ms
+ GET / 200 in 178ms
+ ✓ Compiled / in 85ms
+ GET / 200 in 175ms
+ ✓ Compiled / in 12ms
+ ✓ Compiled / in 7ms
+ ✓ Compiled / in 11ms
+ ✓ Compiled / in 112ms
+ ✓ Compiled / in 12ms
+ ✓ Compiled in 126ms
+ ✓ Compiled / in 12ms
+ GET / 200 in 176ms
+ ✓ Compiled / in 12ms
+ GET / 200 in 154ms
+ ✓ Compiled / in 13ms
+ GET / 200 in 180ms
+ ✓ Compiled / in 8ms
+ ✓ Compiled / in 12ms
+ ✓ Compiled / in 9ms
+ ✓ Compiled in 112ms
+ ✓ Compiled / in 12ms
+ ✓ Compiled / in 10ms
+ ✓ Compiled / in 8ms
+ ✓ Compiled / in 9ms
+ ✓ Compiled / in 15ms
+ ✓ Compiled in 6ms
+ ✓ Compiled / in 31ms
+ ✓ Compiled in 7ms
+ ✓ Compiled / in 23ms
+ GET / 200 in 178ms
+ GET / 200 in 69ms
